@@ -1,7 +1,45 @@
 body
 {
-	background-image: url("img_flySurf/Background_flysurf.jpg");
-	background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-image: url("img_flySurf/backgroundcomplet.jpg");
+	background-attachment: scroll;
+	background-position: 50% top;
+	background-repeat:no-repeat;
+
+}
+
+.bandeau{
+  color: black;
+	font-size:small;
+}
+
+.conseil{
+	image: url("img_flySurf/phonelcon.png");
+   font-size:13px;
+	margin-left:0vw;
+	margin-bottom:0vh;
+
+
+}
+.horaire{
+	 font-size:13px;
+   margin-left:0vw;
+	margin-bottom:0vh;
+
+
+
+}
+
+.horaire p {
+margin:0vw -1vw -12vh 215vh;
+}
+
+.conseil p {
+margin:1vw 0vw -6vh 154vh;
+}
+
+.contact{
+	background-image: url("img_flySurf/mailcon..jng");
+	margin-left:0vw;
+	margin-top:0vh
+
 }
