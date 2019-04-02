@@ -5,6 +5,7 @@ body {
 	background-position:50% top;
 }
 
+
 .mainBlock, .mainrow{
 	width:100%;
 	height:100%;
@@ -17,7 +18,7 @@ body {
 
 .extremeLeft{
 	background-color:orange;
-	margin-left:2.3%;
+	margin-left:2%;
 }
 
 .carouWidth{
@@ -28,7 +29,6 @@ body {
 .slider{
 	width:100%;
 	float:left;
-	margin-left:-0.5%;
 	background-color:teal;
 }
 
@@ -36,39 +36,49 @@ body {
 	width:100%;
 	float:left;
 	margin-top:1%;
-	margin-left:-0.5%;
 	background-color:magenta;
 }
 
 .surfPromo{
-	width:60%;
+	width:100%;
 	margin-top:1%;
 	background-color:red;
-	margin-left:-0.6%;
 }
 
 .madeiroPromo{
-	width:41.9%;
+	width:100%;
 	margin-top:1%;
-	margin-left:-1.6%;
 	background-color:green;
 }
 
 .duoTone{
-	width:35.6%;
-	margin-top:1%;
-	margin-left:-0.6%;
+	width:100%;
+	vertical-align:middle;
+	margin-top:10%;
 	background-color:blue;
 }
 
 .North{
 	margin-top:1%;
-	margin-left:-1.5%;
-	width:66.1%;
 	background-color:yellow;
 
 }
 
+.police{
+	font-size:10px;
+	margin-top:1%;
+}
+
+.com{
+	width:100%;
+	margin-top:1%;
+}
+
+.name{
+	margin-top:40%;
+	margin-left:-50%;
+	background-color:teal;
+}
 .foilWing{
 	width:85%;
 	margin-top:6%;
