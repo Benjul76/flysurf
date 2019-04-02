@@ -1,12 +1,11 @@
 body {
   background-image: url("img_flySurf/backgroundcomplet.jpg");
   background-position: 50% top;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
 .footer {
-  display: inline;
   float: left;
   width: 100%;
 }
@@ -22,17 +21,19 @@ body {
   width: 80%;
 }
 
-.footer ul.menu_contact li {
+.footer ul.menu_contact li a {
   background: url("img_flySurf/separate_menu_footer.png") no-repeat right;
   font-size: 12px;
   float: left;
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
   font-weight: bold;
   padding: 7px 9px 6px 0;
+  text-decoration: none;
+  color: white;
 }
 
-.footer ul.menu_contact li.logo {
+.footer ul.menu_contact li a .logo {
   background: transparent;
 }
 
@@ -193,107 +194,123 @@ body {
 }
 
 .contactAvis {
-    background: url("img_flySurf/bg_contactAvis.png") repeat-x left #eaeaea;
-    border-bottom: 1px solid #838383;
-		clear: both;
-    padding: 96px;
-		max-width: 100%;
-		height: auto;
-		margin-left: 125px;
-		width: 80%
+  background: url("img_flySurf/bg_contactAvis.png") repeat-x left #eaeaea;
+  border-bottom: 1px solid #838383;
+  clear: both;
+  padding: 96px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 125px;
+  width: 80%
 }
 
 ul.leftConctact {
-    float: left;
-    width: 34rem;
-		margin: -100px 0px 0px -130px;
-    list-style: none;
+  float: left;
+  width: 34rem;
+  margin: -78px 0px 0px -130px;
+  list-style: none;
 }
 
 ul.leftConctact li {
-    float: left;
-    padding: 31px 0px 14px 35px;
-    width: 9rem;
-		border: 1px dashed #838383;
+  float: left;
+  padding: 20px 12px 22px 35px;
+  width: 9rem;
+  border: 1px dashed #838383;
 }
 
 ul.leftConctact li.conseil {
-    background: url("img_flySurf/headSet.png") no-repeat 5px 50%;
-    border-left: none;
-    border-top: none;
-		max-width: 100%;
-		height: auto;
+  background: url("img_flySurf/headSet.png") no-repeat 5px 50%;
+  border-left: none;
+  border-top: none;
+  max-width: 100%;
+  height: auto;
+  line-height: 12px;
 }
 
 ul.leftConctact li a {
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    color: #838383;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #838383;
 }
 
 ul.leftConctact li.stockReel {
-    background: url("img_flySurf/clockMini.png") no-repeat 5px 50%;
-    border-left: none;
-    border-top: none;
-		max-width: 100%;
-		height: auto;
+  background: url("img_flySurf/clockMini.png") no-repeat 5px 50%;
+  border-left: none;
+  border-top: none;
+  max-width: 100%;
+  height: auto;
+  line-height: 12px;
 }
 
 ul.leftConctact li.expedition {
-    background: url("img_flySurf/packageMini.png") no-repeat 5px 50%;
-    border-left: none;
-    border-top: none;
-		border-right: none;
-		max-width: 100%;
-		height: auto;
+  background: url("img_flySurf/packageMini.png") no-repeat 5px 50%;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  line-height: 12px;
+  max-width: 100%;
+  height: auto;
 }
 
 ul.leftConctact li.facility2 {
-    background: url("img_flySurf/x3Mini.png") no-repeat 5px 50%;
-    border-left: none;
-    border-top: none;
-		border-bottom: none;
-		max-width: 100%;
-		height: auto;
+  background: url("img_flySurf/x3Mini.png") no-repeat 5px 50%;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  max-width: 100%;
+  height: auto;
+  line-height: 12px;
 }
 
 ul.leftConctact li.delivery2 {
-    background: url("img_flySurf/truckMini.png") no-repeat 5px 50%;
-    border-left: none;
-		max-width: 100%;
-		height: auto;
-    border-top: none;
-		border-bottom: none;
+  background: url("img_flySurf/truckMini.png") no-repeat 5px 50%;
+  border-left: none;
+  line-height: 12px;
+  max-width: 100%;
+  height: auto;
+  border-top: none;
+  border-bottom: none;
 }
 
 ul.leftConctact li.garantie {
-    background: url("img_flySurf/bebe.png") no-repeat 5px 50%;
-    border: none;
-		max-width: 100%;
-		height: auto;
+  background: url("img_flySurf/eurosMini.png") no-repeat 5px 50%;
+  border: none;
+  max-width: 100%;
+  height: auto;
+  line-height: 12px;
 }
 
 .Note {
-    float: left;
-    background-color: #FFFFFF;
-    border: 1px solid #838383;
-		margin: -58px 0px 0px -60px;
-}
-
-.NoteJS {
-	    float: left;
-			background: url("img_flySurf/bebe.jpg") no-repeat -67px 61%;
-	    width: 150px;
-	    height: 128px;
-	    border: 1px solid #838383;
-	    background-color: #FFFFFF;
-	    margin: -55px 0px 0px 66px;
+  float: left;
+  background-color: #FFFFFF;
+  border: 1px solid #838383;
+  margin: -63px 0px 0px 29px;
 }
 
 .Partner {
-		max-width: 100%;
-		height: auto;
-		margin-left: 133px;
-		width: 80%
+  max-width: 100%;
+  height: auto;
+  margin-left: 125px;
+  width: 80%
+}
+
+.footerBottom {
+  color: #838383;
+  font-size: 12px;
+  float: left;
+  padding: 20px;
+  margin-left: 125px;
+  width: 80%;
+  border-top: 1px solid #838383;
+  border-bottom: 1px solid #838383;
+}
+
+.footerBottom2 {
+  color: #838383;
+  font-size: 12px;
+  float: left;
+  padding: 20px;
+  margin-left: 125px;
+  width: 80%;
 }
