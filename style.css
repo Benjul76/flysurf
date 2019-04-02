@@ -1,7 +1,299 @@
-body
-{
-	background-image: url("img_flySurf/Background_flysurf.jpg");
-	background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+body {
+  background-image: url("img_flySurf/backgroundcomplet.jpg");
+  background-position: 50% top;
+	background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.footer {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.footer ul.menu_contact {
+  background-color: #646464;
+  display: inline-block;
+  float: left;
+  height: 32px;
+  list-style-type: none;
+  margin-left: 125px;
+  padding: 1px 0px 0px 21px;
+  width: 80%;
+}
+
+.footer ul.menu_contact li {
+  background: url("img_flySurf/separate_menu_footer.png") no-repeat right;
+  font-size: 12px;
+  float: left;
+	max-width: 100%;
+	height: auto;
+  font-weight: bold;
+  padding: 7px 9px 6px 0;
+}
+
+.footer ul.menu_contact li.logo {
+  background: transparent;
+}
+
+.footerTop {
+  background: #fcfad9;
+  float: left;
+  height: auto;
+  padding: 10px 0 5px 13px;
+  margin: -16px 0 0 125px;
+  width: 80%;
+}
+
+.footerTopLeftTop {
+  border-bottom: 1px solid #b9b8b8;
+  float: left;
+}
+
+.followUs {
+  color: #5c5c5c;
+  float: left;
+  font-size: 11px;
+  margin: 0 0 2px 0;
+  width: 180px;
+}
+
+.facebook {
+  float: left;
+  margin: 16px 0 0 -165px;
+}
+
+.twitter {
+  float: left;
+  margin: 16px 0 0 -125px;
+}
+
+.youtube {
+  float: left;
+  margin: 16px 0 0 -85px;
+}
+
+.google {
+  float: left;
+  margin: 16px 0 0 -45px;
+}
+
+.footerTopLeftBottom {
+  float: left;
+  margin: 60px 0 0 -175px;
+}
+
+.footerTopCenter {
+  border-left: 1px solid #b9b8b8;
+  border-right: 1px solid #b9b8b8;
+  float: left;
+  padding: 0 10px 0 10px;
+}
+
+.serviceWarranty {
+  color: black;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footerTopCenter ul.list_Service {
+  list-style-type: none;
+  font-weight: normal;
+  padding: 0;
+}
+
+.footerTopCenter ul.list_Service li a {
+  color: #4d4c4c;
+  text-decoration: none;
+}
+
+.deliveryPaiement {
+  color: black;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.footerTopCenter ul.list_delivery {
+  list-style-type: none;
+  font-weight: normal;
+  padding: 0;
+}
+
+.footerTopCenter ul.list_delivery li a {
+  color: #4d4c4c;
+  text-decoration: none;
+}
+
+.FSPremium {
+  color: black;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 24px 5px;
+}
+
+.footerTopCenter ul.list_premium {
+  list-style-type: none;
+  font-weight: normal;
+  padding: 0;
+}
+
+.footerTopCenter ul.list_premium li a {
+  color: #4d4c4c;
+  text-decoration: none;
+}
+
+.ourMarque {
+  color: black;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.footerTopCenter ul.list_marque {
+  list-style-type: none;
+  font-weight: normal;
+  padding: 0;
+}
+
+.footerTopCenter ul.list_marque li a {
+  color: #4d4c4c;
+  text-decoration: none;
+}
+
+.ourMarque2 {
+  color: black;
+  float: left;
+  font-size: 12px;
+  margin: 18px 0 5px;
+}
+
+.footerTopCenter ul.list_marque2 {
+  list-style-type: none;
+  clear: left;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+.footerTopCenter ul.list_marque2 li a {
+  color: #4d4c4c;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.footerTopRight {
+  float: left;
+  margin-left: 10px;
+}
+
+.contactAvis {
+    background: url("img_flySurf/bg_contactAvis.png") repeat-x left #eaeaea;
+    border-bottom: 1px solid #838383;
+		clear: both;
+    padding: 96px;
+		max-width: 100%;
+		height: auto;
+		margin-left: 125px;
+		width: 80%
+}
+
+ul.leftConctact {
+    float: left;
+    width: 34rem;
+		margin: -100px 0px 0px -130px;
+    list-style: none;
+}
+
+ul.leftConctact li {
+    float: left;
+    padding: 31px 0px 14px 35px;
+    width: 9rem;
+		border: 1px dashed #838383;
+}
+
+ul.leftConctact li.conseil {
+    background: url("img_flySurf/headSet.png") no-repeat 5px 50%;
+    border-left: none;
+    border-top: none;
+		max-width: 100%;
+		height: auto;
+}
+
+ul.leftConctact li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #838383;
+}
+
+ul.leftConctact li.stockReel {
+    background: url("img_flySurf/clockMini.png") no-repeat 5px 50%;
+    border-left: none;
+    border-top: none;
+		max-width: 100%;
+		height: auto;
+}
+
+ul.leftConctact li.expedition {
+    background: url("img_flySurf/packageMini.png") no-repeat 5px 50%;
+    border-left: none;
+    border-top: none;
+		border-right: none;
+		max-width: 100%;
+		height: auto;
+}
+
+ul.leftConctact li.facility2 {
+    background: url("img_flySurf/x3Mini.png") no-repeat 5px 50%;
+    border-left: none;
+    border-top: none;
+		border-bottom: none;
+		max-width: 100%;
+		height: auto;
+}
+
+ul.leftConctact li.delivery2 {
+    background: url("img_flySurf/truckMini.png") no-repeat 5px 50%;
+    border-left: none;
+		max-width: 100%;
+		height: auto;
+    border-top: none;
+		border-bottom: none;
+}
+
+ul.leftConctact li.garantie {
+    background: url("img_flySurf/bebe.png") no-repeat 5px 50%;
+    border: none;
+		max-width: 100%;
+		height: auto;
+}
+
+.Note {
+    float: left;
+    background-color: #FFFFFF;
+    border: 1px solid #838383;
+		margin: -58px 0px 0px -60px;
+}
+
+.NoteJS {
+	    float: left;
+			background: url("img_flySurf/bebe.jpg") no-repeat -67px 61%;
+	    width: 150px;
+	    height: 128px;
+	    border: 1px solid #838383;
+	    background-color: #FFFFFF;
+	    margin: -55px 0px 0px 66px;
+}
+
+.Partner {
+		max-width: 100%;
+		height: auto;
+		margin-left: 133px;
+		width: 80%
 }
