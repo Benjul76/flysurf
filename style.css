@@ -4,7 +4,6 @@ body
 	background-attachment: scroll;
 	background-position: 50% top;
 	background-repeat:no-repeat;
-
 }
 
 .bandeau{
@@ -15,31 +14,20 @@ body
 .conseil{
 	image: url("img_flySurf/phonelcon.png");
    font-size:13px;
-	margin-left:0vw;
-	margin-bottom:0vh;
-
-
+	 padding:0px;
 }
 .horaire{
 	 font-size:13px;
    margin-left:0vw;
 	margin-bottom:0vh;
-
-
-
 }
 
-.horaire p {
-margin:0vw -1vw -12vh 215vh;
+.contactLink {
+	margin-left:22%;
+	margin-bottom:1%
 }
 
-.conseil p {
-margin:1vw 0vw -6vh 154vh;
-}
-
-.contact{
-	background-image: url("img_flySurf/mailcon..jng");
-	margin-left:0vw;
-	margin-top:0vh
-
+.mail{
+	margin-left:10vw;
+	margin-bottom:0vh;
 }
