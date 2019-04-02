@@ -1,7 +1,75 @@
-body
-{
-	background-image: url("img_flySurf/Background_flysurf.jpg");
-	background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+body {
+  background-image: url("img_flySurf/backgroundcomplet.jpg");
+  background-repeat:no-repeat;
+	background-attachment: scroll;
+	background-position:50% top;
+}
+
+.mainBlock, .mainrow{
+	width:100%;
+	height:100%;
+}
+
+
+.leftCol{
+	background-color:black;
+}
+
+.extremeLeft{
+	background-color:orange;
+	margin-left:2.3%;
+}
+
+.carouWidth{
+ width:100%;
+ margin:auto;
+}
+
+.slider{
+	width:100%;
+	float:left;
+	margin-left:-0.5%;
+	background-color:teal;
+}
+
+.kiteshop{
+	width:100%;
+	float:left;
+	margin-top:1%;
+	margin-left:-0.5%;
+	background-color:magenta;
+}
+
+.surfPromo{
+	width:60%;
+	margin-top:1%;
+	background-color:red;
+	margin-left:-0.6%;
+}
+
+.madeiroPromo{
+	width:41.9%;
+	margin-top:1%;
+	margin-left:-1.6%;
+	background-color:green;
+}
+
+.duoTone{
+	width:35.6%;
+	margin-top:1%;
+	margin-left:-0.6%;
+	background-color:blue;
+}
+
+.North{
+	margin-top:1%;
+	margin-left:-1.5%;
+	width:66.1%;
+	background-color:yellow;
+
+}
+
+.foilWing{
+	width:85%;
+	margin-top:6%;
 }
