@@ -237,9 +237,8 @@ body {
   display: inline-block;
   float: left;
   list-style-type: none;
-  margin-left: 125px;
   padding: 1px 0px 0px 21px;
-  width: 80%;
+  width: 96%;
 }
 
 .footer ul.menu_contact li a {
@@ -263,8 +262,8 @@ body {
   float: left;
   height: auto;
   padding: 10px 0 5px 13px;
-  margin: -16px 0 0 125px;
-  width: 80%;
+  margin: -16px 0 0 0px;
+  width: 96%;
 }
 
 .footerTopLeftTop {
@@ -410,8 +409,7 @@ body {
 }
 
 .contactAvis {
-  width: 80%;
-  margin-left: 125px;
+  width: 96%;
   height: auto;
   background-color: #eaeaea;
   float: left;
@@ -547,8 +545,7 @@ ul.leftConctact li.garantie {
 .Partner {
   max-width: 100%;
   height: auto;
-  margin-left: 125px;
-  width: 80%
+  width: 96%
 }
 
 .footerBottom {
@@ -556,8 +553,7 @@ ul.leftConctact li.garantie {
   font-size: 12px;
   float: left;
   padding: 20px;
-  margin-left: 125px;
-  width: 80%;
+  width: 96%;
   border-top: 1px solid #838383;
   border-bottom: 1px solid #838383;
 }
@@ -567,8 +563,7 @@ ul.leftConctact li.garantie {
   font-size: 12px;
   float: left;
   padding: 20px;
-  margin-left: 125px;
-  width: 80%;
+  width: 96%;
 }
 
 /* Fin CSS Patrick */
