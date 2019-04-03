@@ -5,58 +5,58 @@ body {
   background-position: 50% top;
 }
 
-.mainBlock, .mainrow {
+#mainBlock, #mainrow {
   width: 100%;
   height: 100%;
 }
 
 
-.extremeLeft {
+#extremeLeft {
   margin-left: 2%;
 }
 
-.carouWidth {
+#carouWidth {
   width: 80%;
   margin-left: 5%;
 }
 
-.slider {
+#slider {
   width: 100%;
   float: left;
 }
 
-.kiteshop {
+#kiteshop {
   width: 85%;
   float: left;
   margin-top: 10%;
   margin-left: 3%;
 }
 
-.surfPromo {
+#surfPromo {
   width: 80%;
   margin-top: 8.8%;
   margin-left: 10%;
 }
 
-.madeiroPromo {
+#madeiroPromo {
   width: 80%;
   margin-top: 13%;
   margin-left: -16%;
 }
 
-.duoTone {
+#duoTone {
   width: 90%;
   margin-top: 17%;
   margin-left: 18%;
 }
 
-.North {
+#North {
   margin-top: 9%;
   width: 90%;
   margin-left: 3%;
 }
 
-.police {
+#police {
   font-size: 10px;
   margin-top: 10%;
   margin-left: 5%;
@@ -79,18 +79,18 @@ body {
   border-radius: 3px;
 }
 
-.rightCol {
+#rightCol {
   margin-left:-7.5%;
   width:90%;
 }
 
 
-.foilWing {
+#foilWing {
   width: 70%;
   margin-top: 2%;
 }
 
-.foilText {
+#foilText {
   opacity: 0.6;
   color: white;
   background-color: black;
@@ -101,7 +101,7 @@ body {
   margin-left: 15%;
 }
 
-.reaction {
+#reaction {
   background-color: #75c2ff;
   color: #006ed2;
   text-align: left;
@@ -110,13 +110,13 @@ body {
   margin-left: 15%;
 }
 
-.faceBG {
+#faceBG {
   background-color: #4267b2;
   border-radius: 10%;
   margin-left: 5%;
 }
 
-.twitBG {
+#twitBG {
   background-color: #4267b2;
   border-radius: 10%;
   margin-left: 2%;
@@ -139,7 +139,7 @@ body {
   border-bottom: 1px dotted #126ab0;
 }
 
-.newsMarginBottom {
+#newsMarginBottom {
   margin-bottom: 1rem;
 }
 
@@ -149,10 +149,6 @@ body {
   background-position: top left;
   border: 1px solid #7ab1dc;
   width: 99%;
-}
-
-.forumBorder {
-  border: 1px solid black;
 }
 
 .list-group-item {
@@ -173,10 +169,11 @@ body {
   border-top: 1px dotted #126ab0;
 }
 
-.fullWarranty{
-  background-image: url('img_flySurf/garantie.png');
-  background-repeat:no-repeat;
-  background-position: top right;
+#fullWarranty{
+  position:absolute;
+  top:0;
+  right:-3%;
+  z-index:2;
 }
 
 .cabrinha{
