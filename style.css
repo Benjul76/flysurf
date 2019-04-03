@@ -10,14 +10,13 @@ body {
   height: 100%;
 }
 
-.leftCol {}
 
 .extremeLeft {
   margin-left: 2%;
 }
 
 .carouWidth {
-  width: 93%;
+  width: 80%;
   margin-left: 5%;
 }
 
@@ -27,33 +26,33 @@ body {
 }
 
 .kiteshop {
-  width: 100%;
+  width: 85%;
   float: left;
   margin-top: 10%;
   margin-left: 3%;
 }
 
 .surfPromo {
-  width: 100%;
+  width: 80%;
   margin-top: 8.8%;
   margin-left: 10%;
 }
 
 .madeiroPromo {
-  width: 100%;
+  width: 80%;
   margin-top: 13%;
-  margin-left: -5%;
+  margin-left: -16%;
 }
 
 .duoTone {
-  width: 110%;
+  width: 90%;
   margin-top: 17%;
   margin-left: 18%;
 }
 
 .North {
   margin-top: 9%;
-  width: 110%;
+  width: 90%;
   margin-left: 3%;
 }
 
@@ -61,11 +60,11 @@ body {
   font-size: 10px;
   margin-top: 10%;
   margin-left: 5%;
-  width: 100%;
+
 }
 
 .com {
-  width: 100%;
+
   margin-top: 10%;
   margin-left: -1%;
 }
@@ -81,9 +80,10 @@ body {
 }
 
 .rightCol {
-  background-color: pink;
-  margin-left: -3.8%;
+  margin-left:-7.5%;
+  width:90%;
 }
+
 
 .foilWing {
   width: 70%;
@@ -144,8 +144,8 @@ body {
 }
 
 .blueLine {
-  background: url('img_flySurf/blueLine.png');
-  repeat: repeat-x;
+  background-image: url('img_flySurf/blueLine.png');
+  background-repeat: repeat-x;
   background-position: top left;
   border: 1px solid #7ab1dc;
   width: 99%;
@@ -162,4 +162,23 @@ body {
   margin-bottom: -10px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.list-group-item-bis {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -10px;
+  background-color: #fff;
+  border-top: 1px dotted #126ab0;
+}
+
+.fullWarranty{
+  background-image: url('img_flySurf/garantie.png');
+  background-repeat:no-repeat;
+  background-position: top right;
+}
+
+.cabrinha{
+  width:10%;
 }
