@@ -1,11 +1,121 @@
-body {
-  background-image: url("img_flySurf/backgroundcomplet.jpg");
-  background-position: 50% top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+body
+{
+	background-image: url("img_flySurf/backgroundcomplet.jpg");
+	background-attachment: scroll;
+	background-position: 50% top;
+	background-repeat:no-repeat;
 }
 
-/* Début CSS Damien */
+#numero{
+	margin:-20px 0px 0px 0px;
+	float: left;
+}
+
+.bandeau{
+  color: black;
+	font-size:small;
+	float: left;
+}
+
+.tel {
+	margin: 0px 0 0 -23px;
+	float: left;
+}
+
+.conseil{
+   font-size:12px;
+
+}
+.horaire{
+	 font-size:11px;
+	 margin: 0 0 0 0;
+	 float: left;
+}
+
+.contactLink {
+	margin: 30px 0 0 8px;
+	float: left;
+}
+
+.separateur{
+	float: left;
+	margin-left: 10px;
+	width: 3px;
+	height: 53px
+}
+
+.mail{
+	margin:4px 0 0px -30px;
+	float: left;
+}
+	.contact{
+		margin: 0 0 0 0;
+		float:left;
+	}
+
+
+	#date{
+	margin: 0px 0 0 -57px;
+	float: left;
+	line-height: 13px;
+}
+
+	#panier{
+
+
+	}
+.identifiant{
+	float: left;
+}
+
+
+.membre:hover .caché{
+	display:block;
+}
+
+.caché{
+	display:none;
+}
+
+.borders{
+	border:1px solid black;
+}
+
+.marginExtremeLeft{
+	margin:8%;
+}
+
+.marginID{
+	margin-left:-5%;
+}
+
+.libelle{
+	list-style: none;
+}
+
+.libelle input, .libelle label{
+	margin-left:-30px;
+	width:100%;
+}
+
+.memberSpace,.phoneNumber{
+	color:#ff6541;
+	font-size:0.8rem;
+}
+
+.connected{
+	font-size:0.8rem;
+}
+
+.phoneNumber{
+	margin-top:-15%;
+}
+
+.marginTop{
+	margin-top:17%;
+}
+
+	/* Début CSS Damien */
 .carousel-indicators {
   position: absolute;
   right: 10%;
@@ -565,5 +675,3 @@ ul.leftConctact li.garantie {
   padding: 20px;
   width: 96%;
 }
-
-/* Fin CSS Patrick */
